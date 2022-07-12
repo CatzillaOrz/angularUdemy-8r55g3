@@ -4,6 +4,7 @@ module.exports = {
   configJS: './tailwind-config.js',
   sourceCSS: './src/tailwind.css',
   outputCSS: './src/styles.css',
+  content: ['./src/**/*.{html,ts}', './projects/**/*.{html,ts}'],
   // Sass
   sass: false,
   // PurgeCSS Settings
